@@ -5,11 +5,14 @@ terraform {
       version = ">= 5.0"
     }
   }
+<<<<<<< HEAD
 
   backend "gcs" {
     bucket = "org-terraform-state-gcp"
     prefix = "prod/ec2-micro-example"
   }
+=======
+>>>>>>> d5cc1c9 (Pushing to my specific repo)
 }
 
 provider "google" {
